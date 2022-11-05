@@ -50,6 +50,17 @@ public class Main {
         var WeightDifference2 = BoxerTwo % BoxerOne;
         System.out.println("Второй боксер тяжелее первого на " + WeightDifference2 + " кг!");
 
+        var WorkingHours = 640;
+        var OneEmpHours = 8;
+        var NumberOfEmp = WorkingHours / OneEmpHours;
+        System.out.println("Всего работников в компании - " + NumberOfEmp + " человек!");
+
+        var NewStaff = NumberOfEmp + 94;
+        System.out.println(NewStaff);
+        var NewWorkingHours = NewStaff * OneEmpHours;
+        System.out.println("Если в компании работает " + NewStaff + " человек,то всего " + NewWorkingHours + " часов работы может быть поделено между сотрудниками");
+
+
 
     }
 }
